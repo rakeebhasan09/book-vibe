@@ -11,8 +11,14 @@ body {
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 1270px;
 	margin: auto;
 	padding-left: 15px;
 	padding-right: 15px;
+}
+
+.menu li a.active {
+	color: #23be0a;
+	border: 1px solid #23be0a;
+	border-radius: 8px;
 }
