@@ -5,6 +5,7 @@ import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import MianLayout from "./MianLayout/MianLayout";
 import HomePage from "./components/HomePage/HomePage";
+import BookDetails from "./components/BookDetails/BookDetails";
 
 const router = createBrowserRouter([
 	{
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
 			{
 				path: "/",
 				Component: HomePage,
+			},
+			{
+				path: "book-details",
+				Component: BookDetails,
 			},
 		],
 	},
